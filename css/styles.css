@@ -4,3 +4,11 @@
   margin-bottom: 30px;
   padding: 30px;
 }
+
+#confirm {
+  display: none;
+}
+
+#response {
+  display: none;
+}

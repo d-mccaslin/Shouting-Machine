@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="group-standard">
+    <div id="input-form" class="group-standard">
       <form id="formOne">
         <div class="form-group">
           <label for="phrase">Please enter a message...</label>
@@ -18,7 +18,17 @@
         <button type="submit" class="btn-primary">ENTER</button>
       </form>
     </div>
-    <div>
+
+    <div id="confirm" class="group-standard">
+      <p>Is this your message?</p>
+      <br>
+      <p><strong><span class="phrase"></span></strong></p>
+      <br>
+      <button class="btn btn-success" id="yes">YES</button>
+      <button class="btn btn-danger" id="no">NO</button>
+    </div>
+
+    <div id="response" class="group-standard">
       <!-- Other html stuff -->
     </div>
   </div>
